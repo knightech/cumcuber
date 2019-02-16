@@ -48,3 +48,14 @@ there is to bind the runner to the feature:
 @CucumberOptions(features = { "classpath:features/user/user.feature" })
 
 ```
+
+Now with the instructions to create a job to run this test in a throw away container:
+
+`
+kubectl delete jobs.batch tester
+docker build . -t petecknight/tester:1.2
+kubectl apply -f job.yaml
+kubectl wait --for=condition=complete --timeout=30s -f job.yaml
+
+job.batch/tester condition met
+`
