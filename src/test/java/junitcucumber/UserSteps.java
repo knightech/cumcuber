@@ -29,5 +29,6 @@ public class UserSteps {
 		assertThat(name, is(user.getName()));
 		assertThat(user.getCertification(), equalTo("Java"));
 		assertThat(user.getResult(), is(true));
+		assertThat(1==1, is(true));
 	}
 }

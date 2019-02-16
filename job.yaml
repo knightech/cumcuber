@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: tester
+spec:
+  template:
+    spec:
+      containers:
+        - name: tester
+          image: petecknight/tester:1.0
+          imagePullPolicy: Never
+      restartPolicy: Never
+  backoffLimit: 1

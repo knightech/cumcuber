@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/junitcucumber.iml" filepath="$PROJECT_DIR$/.idea/modules/junitcucumber.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/junitcucumber_main.iml" filepath="$PROJECT_DIR$/.idea/modules/junitcucumber_main.iml" group="junitcucumber" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/junitcucumber_test.iml" filepath="$PROJECT_DIR$/.idea/modules/junitcucumber_test.iml" group="junitcucumber" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.iml" filepath="$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.integrationTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.javacodegeeks.junitcucumber.test.iml" />
     </modules>
   </component>
 </project>
