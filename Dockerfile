@@ -11,6 +11,6 @@ USER gradle
 VOLUME "/home/gradle/.gradle"
 WORKDIR /home/gradle
 
-CMD cd /app && gradle build --stacktrace
+RUN cd /app && gradle build --stacktrace
 
 
