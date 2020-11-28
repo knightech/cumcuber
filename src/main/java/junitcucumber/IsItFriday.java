@@ -1,11 +1,5 @@
 package junitcucumber;
 
-/**
- * Copyright (c)2018 DFS Services LLC
- * All rights reserved.
- *
- * @author pknigh2
- */
 public class IsItFriday {
 
   /**
